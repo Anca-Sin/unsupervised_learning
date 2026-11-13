@@ -1,0 +1,50 @@
+column,database,role,benchmark,renamed
+encounter_type,MPV,indicator,,encounter
+call_for_service,MPV,indicator,,call_for_service
+wapo_threat_level,MPV,indicator,,threat
+wapo_flee,MPV,indicator,,flee
+signs_of_mental_illness,MPV,indicator,,mental_state
+allegedly_armed,MPV,indicator,,armed
+wapo_armed,MPV,indicator,,weapon
+gunshot,MPV,indicator,,gunshot
+vehicle,MPV,indicator,,vehicle
+restraint,MPV,indicator,,restraint
+taser,MPV,indicator,,taser
+longitude,MPV,descriptor,,
+latitude,MPV,descriptor,,
+state,MPV,descriptor,,
+age,MPV,descriptor,,
+age_band,MPV,descriptor,,
+gender,MPV,descriptor,,
+race,MPV,descriptor,,
+less_lethal_also,MPV,descriptor,,
+pop_density,"ACS, TIGER",descriptor,,
+pct_poverty,ACS,descriptor,,
+race,MPV,marker,,
+allegedly_armed,MPV,marker,,
+signs_of_mental_illness,MPV,marker,,
+gender,MPV,marker,,
+less_lethal_also,MPV,marker,,
+officer_charged,MPV,slicer,,
+pct_white,ACS,benchmark,local,race = white
+pct_black,ACS,benchmark,local,race = black
+pct_hispanic,ACS,benchmark,local,race = hispanic
+pct_asian,ACS,benchmark,local,race = asian
+pct_aian,ACS,benchmark,local,race = AIAN
+pct_male,ACS,benchmark,local,gender = M
+pct_female,ACS,benchmark,local,gender = F
+pct_age_under_5,ACS,benchmark,local,age_band = under 5
+pct_age_5_9,ACS,benchmark,local,age_band = 5-9
+pct_age_10_14,ACS,benchmark,local,age_band = 10-14
+pct_age_15_19,ACS,benchmark,local,age_band = 15-19
+pct_age_20_24,ACS,benchmark,local,age_band = 20-24
+pct_age_25_34,ACS,benchmark,local,age_band = 25-34
+pct_age_35_44,ACS,benchmark,local,age_band = 35-44
+pct_age_45_54,ACS,benchmark,local,age_band = 45-54
+pct_age_55_59,ACS,benchmark,local,age_band = 55-59
+pct_age_60_64,ACS,benchmark,local,age_band = 60-64
+pct_age_65_74,ACS,benchmark,local,age_band = 65-74
+pct_age_75_84,ACS,benchmark,local,age_band = 75-84
+pct_age_85_plus,ACS,benchmark,local,age_band = 85+
+pct_poverty,ACS,benchmark,national,
+race_segregation,ACS,benchmark,national,

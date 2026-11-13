@@ -1,0 +1,95 @@
+column,label,share,becomes,reason
+(every column),(empty cell),,missing,"Nothing is recorded, so it's missing."
+race,White,46.70%,white,
+race,Black,25.80%,black,
+race,Hispanic,18.60%,hispanic,
+race,Asian,1.60%,asian,
+race,American Indian and Alaska Native,1.80%,AIAN,
+race,Native Hawaiian and Pacific Islander,0.70%,missing,Too few deaths.
+race,Unknown race,4.90%,missing,
+gender,Male,94.60%,M,
+gender,Female,5.20%,F,
+gender,Transgender Female,0.10%,missing,Too few deaths.
+gender,Transgender Male,0.10%,missing,
+gender,Non-Binary,<0.1%,missing,
+gender,Unknown,0.10%,missing,
+allegedly_armed,Allegedly Armed,71.30%,armed,
+allegedly_armed,Unarmed/Did Not Have Actual Weapon,15.00%,unarmed,
+allegedly_armed,Vehicle,6.30%,armed,The person used the vehicle as a weapon; wapo_armed names it.
+allegedly_armed,Unclear,7.40%,missing,
+signs_of_mental_illness,Yes,21.30%,mental illness,
+signs_of_mental_illness,Drug or Alcohol Use,4.40%,drugs or alcohol,
+signs_of_mental_illness,No,63.90%,neither,Reports mention neither.
+signs_of_mental_illness,Unknown,9.70%,missing,
+encounter_type,Part 1 Violent Crime,28.20%,violent crime,
+encounter_type,Person with a Weapon,13.40%,person with a weapon,
+encounter_type,Other Non-Violent Offense,17.60%,non-violent offense,
+encounter_type,Traffic Stop,10.10%,traffic stop,
+encounter_type,Mental Health/Welfare Check,9.00%,mental health check,
+encounter_type,Domestic Disturbance,9.40%,domestic disturbance,
+encounter_type,Other Crimes Against People,4.50%,other crime against people,
+encounter_type,None/Unknown,7.90%,none or generalized suspicion,"Covers non-criminal situations, such as car crashes, and cases where the police had suspicion with no specific offense. Recoding it as missing would throw those out."
+call_for_service,Yes,63.20%,yes,
+call_for_service,No,31.90%,no,
+call_for_service,Unavailable,4.90%,missing,
+wapo_threat_level,Attack,58.20%,attack,
+wapo_threat_level,Brandished Weapon,3.00%,attack,A label of the newer coding; in the window's coding it counts as attack.
+wapo_threat_level,Used Weapon,0.70%,attack,
+wapo_threat_level,Sudden Threatening Movement,1.00%,attack,
+wapo_threat_level,Other,26.80%,other,
+wapo_threat_level,Undetermined,5.30%,missing,
+wapo_flee,Not Fleeing,57.50%,not fleeing,
+wapo_flee,Car,14.50%,car,
+wapo_flee,Foot,11.80%,foot,
+wapo_flee,"Car, Foot",0.40%,car,"A car is named, so it counts as fleeing by car."
+wapo_flee,"Foot, Car",<0.1%,car,
+wapo_flee,"Other, Car",<0.1%,car,
+wapo_flee,Other,2.90%,other,
+officer_charged,No Known Charges,96.80%,no,No officer was charged.
+officer_charged,(every other label),3.00%,yes,It names a charge.
+officer_charged,Officer deceased,<0.1%,missing,It doesn't say whether an officer was charged.
+officer_charged,Qualified Immunity denied to officers,<0.1%,missing,
+officer_charged,"Qualified Immunity denied to officers,Immunity denial appealed",<0.1%,missing,
+officer_charged,Request to Re-open,<0.1%,missing,
+wapo_armed,Gun,51.60%,gun,
+wapo_armed,Knife,13.30%,knife,
+wapo_armed,No Object,8.50%,unarmed,"The WaPo column names the object the person held, so holding nothing = unarmed."
+wapo_armed,Vehicle,6.20%,vehicle,
+wapo_armed,Undetermined,5.00%,missing,
+wapo_armed,Toy Weapon,3.00%,unknown weapon,Can't be told apart from a real weapon at a distance
+wapo_armed,Unknown Weapon,1.00%,unknown weapon,WaPo records a weapon but not its kind.
+wapo_armed,Machete,0.70%,"weapon, no gun",
+wapo_armed,Taser,0.50%,"weapon, no gun",
+wapo_armed,Replica Gun,0.10%,gun,Can't be told apart from a gun at a distance (same principle applied to others below)
+wapo_armed,Sword,0.40%,"weapon, no gun",
+wapo_armed,BB Gun,0.10%,gun,
+wapo_armed,Airsoft Gun,0.10%,gun,
+wapo_armed,Pellet Gun,0.10%,gun,
+wapo_armed,(every other label),5.10%,"armed, other","114 small labels of mixed kinds, so they can't be merged by meaning."
+cause_of_death,Gunshot,93.86%,gunshot,
+cause_of_death,Taser,7.16%,taser,
+cause_of_death,Vehicle,1.65%,vehicle,
+cause_of_death,blunt force trauma/car crash,0.01%,vehicle,
+cause_of_death,Physical Restraint,2.43%,restraint,
+cause_of_death,Beaten,0.70%,restraint,
+cause_of_death,Pepper Spray,0.28%,restraint,
+cause_of_death,Bean bag,0.18%,restraint,
+cause_of_death,prone restraint,0.39%,restraint,
+cause_of_death,Asphyxiated,0.17%,restraint,
+cause_of_death,baton,0.10%,restraint,
+cause_of_death,Chemical Agent,0.01%,restraint,
+cause_of_death,sedative,0.09%,restraint,
+cause_of_death,K-9 dog,0.06%,restraint,
+cause_of_death,prone restraint cardiac arrest,0.04%,restraint,
+cause_of_death,choke hold,0.05%,restraint,
+cause_of_death,carotid restraint,0.05%,restraint,
+cause_of_death,hobble restraint,0.04%,restraint,
+cause_of_death,launched projectiles,0.04%,restraint,
+cause_of_death,strangulation,0.03%,restraint,
+cause_of_death,aphixiation,0.01%,restraint,
+cause_of_death,spit hood,0.01%,restraint,
+cause_of_death,Other,0.67%,missing,Too few deaths.
+cause_of_death,Unclear,0.03%,missing,
+cause_of_death,Cardiac Arrest,0.04%,missing,
+cause_of_death,Methamphretamine,0.01%,missing,
+cause_of_death,Fire,0.01%,missing,

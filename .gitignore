@@ -1,0 +1,11 @@
+data/0_raw/1_2_tiger/tracts_2022.gpkg
+data/1_data_notebooks/1_2_tiger/tracts.gpkg
+
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.idea/
+.DS_Store
+Thumbs.db
